@@ -1,0 +1,27 @@
+# Core Python
+numpy
+scipy
+pandas
+matplotlib
+tqdm
+
+# Deep Learning
+torch>=1.10.0
+torchvision>=0.11.0
+facenet-pytorch>=2.5.3
+
+# Image Processing
+opencv-python
+Pillow
+
+# Face Detection & Alignment
+mtcnn
+# dlib   # optional but useful if you prefer dlib alignment
+face_recognition   # wrapper on dlib, for quick testing
+
+# Training Utilities
+scikit-learn
+scikit-image
+
+# Logging & Debugging
+tensorboard
