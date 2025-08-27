@@ -1,0 +1,12 @@
+# Default (finetune ON, 5 epochs)
+python build_db.py --aligned_dir aligned
+
+# Faster (no finetune, just build DB from pretrained)
+python build_db.py --aligned_dir aligned --no-finetune
+
+# More precise finetune (unfreeze backbone)
+python build_db.py --aligned_dir aligned --epochs 10 --unfreeze
+
+
+#my path
+python build_db.py --aligned_dir D:\python projects\Face_Recognition\aligned

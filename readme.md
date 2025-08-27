@@ -22,10 +22,10 @@ dataset/
 Align the Images using align.py
 
 3rd Step:
-Finetune the dataset, train and create a DB to mentain the record. Use build.py. There is a run_command.txt for referance
+Finetune the dataset, train and create a DB to mentain the record. Use build_db.py. There is a run_command.txt for referance
 
 4th Step:
 Run main.py to recognition the face at realtime.
 
 5th and additional Step:
-if there is any changes, in dataset, life any person is removed or new person joined, just make a folder with the images, align the image, and run rebuild.py for update the DB.
+if there is any changes, in dataset, life any person is removed or new person joined, just make a folder with the images, align the image, and run rebuild_db.py for update the DB.

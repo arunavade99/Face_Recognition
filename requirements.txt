@@ -17,7 +17,7 @@ Pillow
 # Face Detection & Alignment
 mtcnn
 # dlib   # optional but useful if you prefer dlib alignment
-face_recognition   # wrapper on dlib, for quick testing
+# face_recognition   # wrapper on dlib, for quick testing
 
 # Training Utilities
 scikit-learn
